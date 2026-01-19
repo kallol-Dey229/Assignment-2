@@ -89,3 +89,52 @@
 }
 
 /* Episode Section */
+
+.feature{
+    background-color: #1A0B2E;
+}
+
+iframe{
+    border-radius: 20px;
+    width: 100%;
+    height:250px;
+}
+
+.video{
+    background-color: #250D44;
+    border-radius: 20px;
+}
+.video-content{
+    padding: 24px;
+}
+
+.video-content h3{
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.video-content p{
+    color: white;
+    font-size: 1rem;
+    line-height: 24px;
+    padding-bottom: 1.5rem;
+}
+
+
+/* Host Part */
+
+.host-details-container{
+    background-color: #220c3f;
+}
+
+.host-details li{
+    border:2px solid rgb(56, 11, 28);
+    border-radius: 50%;
+    padding: 12px;
+}
+
+.host-details-container{
+    border-radius: 30px;
+}
