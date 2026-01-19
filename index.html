@@ -4,8 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-2</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/style1.css">
 </head>
 <body>
-    
+    <header>
+        <nav class="bg-[#412567] flex">
+            <div class="logo m-7 ml-[200px] mr-83">
+                <h1 class="text-4xl font-bold"><span class="text-white">Tech</span><span class="bg-linear-to-r from-[#A020F0] via-[#FF1493] to-[#E0115F] bg-clip-text text-transparent font-bold">Wave</span></h1>
+            </div>
+
+            <div class="links">
+                <ul class="text-white flex m-[36.5px] mr-115 gap-10 text-[16px]">
+                    <li>About</li>
+                    <li>Episodes</li>
+                    <li>Host</li>
+                </ul>
+            </div>
+
+            <div >
+                <button class="btn text-[16px] font-semibold m-6 mr-50 ">Subscribe</button>
+            </div>
+        </nav>
+
+        <div class="banner pl-[625px] pt-[101px] pb-[101px]">
+            <div class="banner-inner ">
+                <div class="banner-logo pl-30 pt-20">
+                    <img src="./assets/microphone.png" alt="">
+                </div>
+                <div class="banner-content mt-35 text-white">
+                <h1 class="text-6xl font-extrabold ">TechWave</h1>
+                <p class="text-[16px] mt-2 ">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                <div class="buttons mt-6 flex gap-2">
+                    <button class="btn"><i class="fa-brands fa-spotify"></i> Listen on Spotify</button>
+                    <button class="green-subscribe flex gap-3 justify-center"><span class="mt-1.5"><img src="./assets/message.png" alt=""></span>Subscribe</button>
+                </div>
+                </div>
+                
+            </div>
+        </div>
+    </header>
 </body>
 </html>

@@ -1,0 +1,36 @@
+.btn{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12.5px;
+    padding-right: 40px;
+    padding-left: 16px;
+    background: linear-gradient(
+  90deg,
+  rgb(248, 175, 93),
+  rgb(249, 65, 150),
+  rgb(250, 18, 174),
+  rgb(166, 1, 234)
+);
+    border-radius: 30px;
+    border: none;
+}
+
+.green-subscribe{
+    color: #00FF88;
+    border: 2px solid #00FF88;
+    padding: 8px;
+    width: 147px;
+    height: 45px;
+    border-radius: 30px;
+}
+
+.banner{
+    background-image: url(/assets/hero-bg.png);
+}
+.banner .banner-inner {
+    
+    background-image: url(/assets/hero-circle.png);
+    background-repeat: no-repeat;
+    
+}
