@@ -1,3 +1,5 @@
+
+
 .btn{
     color: white;
     font-size: 16px;
@@ -25,12 +27,27 @@
     border-radius: 30px;
 }
 
+
+/* Header section */
+
 .banner{
     background-image: url(/assets/hero-bg.png);
+    background-size: 100%;
 }
 .banner .banner-inner {
     
     background-image: url(/assets/hero-circle.png);
     background-repeat: no-repeat;
-    
+    background-position: 745px 125px;
+    background-size:410px;
 }
+
+
+/* About section */
+
+.about-container{
+    background-color: #1A0B2E;
+}
+
+/* Choose Section */
+
