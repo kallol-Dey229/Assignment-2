@@ -1,4 +1,12 @@
 
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+body{
+    width: 100%;
+}
 
 .btn{
     color: white;
@@ -18,6 +26,13 @@
     border: none;
 }
 
+.btn:hover{
+    cursor: pointer;
+    background: white;
+    color: gray;
+}
+
+
 .green-subscribe{
     color: #00FF88;
     border: 2px solid #00FF88;
@@ -25,22 +40,44 @@
     width: 147px;
     height: 45px;
     border-radius: 30px;
+    cursor: pointer;
 }
+
+.new{
+    background-color: #00FF88;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 18px;
+    border: none;
+    border-radius: 30px;
+    margin-top: -100px;
+    margin-left:275px;
+}
+
+
 
 
 /* Header section */
 
 .banner{
     background-image: url(/assets/hero-bg.png);
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
+
 .banner .banner-inner {
     
     background-image: url(/assets/hero-circle.png);
     background-repeat: no-repeat;
-    background-position: 745px 125px;
-    background-size:410px;
+
+    background-position: 46.6rem 7.8rem;
+    background-size:25.7rem;
+    
 }
+
+
 
 
 /* About section */
@@ -137,4 +174,77 @@ iframe{
 
 .host-details-container{
     border-radius: 30px;
+}
+
+
+
+/* footer */
+
+footer{
+    background-image: url(/assets/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+footer .footer-head h1{
+    padding-top: 165px;
+    padding-left: 770px;
+    padding-bottom: 20px;
+}
+
+
+
+/* Responsive Part */
+
+@media screen and (max-width:576px) {
+
+.about-content{
+    margin:0px 0px 0px 0px;
+}
+
+
+.about-content p{
+    margin: 0px 0px 0px 0px;
+}
+
+
+.choose-section{
+    padding:10px;
+    
+    
+}
+
+.rating-container{
+    margin: 0px;
+    padding: 30px;
+    gap: 70px;
+}
+
+.choose-container{
+    padding: 0px;
+    margin: 5px;
+    gap: 10px;
+    padding-bottom: 10px;
+    grid-template-areas: 
+    "card-1" 
+    "card-2"
+    "card-3"
+    "card-4"
+    "card-5";
+}
+
+.featured-episode{
+    padding: 20px;
+}
+
+.host{
+    padding: 20px;
+}
+
+.hr{
+    margin: 0px 0px 0px;
+}
+
+
 }
