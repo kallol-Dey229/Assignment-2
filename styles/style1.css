@@ -61,7 +61,7 @@ body{
 /* Header section */
 
 .banner{
-    background-image: url(./assets/hero-bg.png);
+    background-image: url(/assets/hero-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -69,7 +69,7 @@ body{
 
 .banner .banner-inner {
     
-    background-image: url(./assets/hero-circle.png);
+    background-image: url(/assets/hero-circle.png);
     background-repeat: no-repeat;
 
     background-position: 46.6rem 7.8rem;
